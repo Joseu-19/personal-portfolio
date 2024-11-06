@@ -1,0 +1,26 @@
+/* Projects Page Styling */
+.projects-page {
+  background-image: url(https://pics.craiyon.com/2023-11-13/xUZzOHh0TbWtAq5qdEOANw.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 4rem 2rem;
+  }
+  
+  .projects-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    backdrop-filter: blur(10);    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .project-card {
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  

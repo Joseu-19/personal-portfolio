@@ -1,0 +1,45 @@
+.latest-projects-container {
+    padding: 2rem;
+    height:  50%;
+    width: 200px;
+    text-align: center;
+    background-color: #171717;
+    border-radius: 10px 0px 10px 10px;
+    position: absolute;
+    right: 0px;
+  }
+  
+  .latest-projects {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .latest-project-card {
+    text-decoration: none;
+    color: white;
+    height: 150px;
+    width: 150px;
+    background:#ffffff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .latest-project-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .latest-project-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .latest-project-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
